@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Reports"
+  site-url: "https://euandj.github.io/Euan_Ives.github.io/"
+  sidebar:
+    foreground: "black"
+    # background: "#EBF5FF"
+    background: "#005eb833"
+    style: "docked"
+    search: true
+    contents:
+      - section: "Quarto Reports"
+        contents:
+          - pages/demo.qmd
+          - pages/demo1.qmd
+      - section: "About"
+        contents:
+          - about.qmd
+format:
+  html:
+    toc: true
+    css: styles.css
+
+execute:
+  freeze: auto
