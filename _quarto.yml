@@ -3,11 +3,10 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "!guidance/SOP.md"
 
 website:
-  title: "NHSE-SW-Reports"
-  site-url: "https://euandj.github.io/Euan_Ives.github.io/"
+  title: "Reports"
+#site-url: "https://euandj.github.io/Euan_Ives.github.io/"
   sidebar:
     foreground: "black"
     # background: "#EBF5FF"
@@ -17,24 +16,13 @@ website:
     contents:
       - section: "Quarto Reports"
         contents:
+          - pages/demo.qmd
           - pages/demo1.qmd
-      - section: "Git"
+      - section: "About"
         contents:
-          - pages/github-desktop.qmd
-          - pages/r-studio.qmd
-          - pages/vs-code.qmd
-          - pages/databricks-github.qmd
-          - pages/fdp.qmd
-      - section: "Principles"
-        contents:
-          - pages/understanding-code.qmd
-      - section: "Placeholder"
-        contents:
-          - pages/another-page.qmd
+          - about.qmd
 format:
   html:
     toc: true
     css: styles.css
 
-execute:
-  freeze: auto

@@ -1,0 +1,17 @@
+{
+  "hash": "070ef1734fb2d2f34b7843eb194a94d0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Quarto R Demo\"\nauthor: \"Me\"\ndate: today\ndate-format: \"D MMMM YYYY\"\nformat:\n  html:\n    toc: true\n    self-contained: true\n    standalone: true\neditor: visual\n---\n\n\n# Automated nested quarto tabs\n\nWe are going to create some dummy data\n\n\n\n\n\n# Next\n\nNext we want to create a tab and chart per site and for each KPI under that site.\n\nin principle you could use this method to create multiple layers of nested tabs\n\n\n::: {.panel-tabset}  \n\n### Tab kpi1    \n![](demo_files/figure-html/unnamed-chunk-2-1.png){width=672}\n\n### Tab kpi2    \n![](demo_files/figure-html/unnamed-chunk-2-2.png){width=672}\n\n### Tab kpi3    \n![](demo_files/figure-html/unnamed-chunk-2-3.png){width=672}\n\n### Tab kpi4    \n![](demo_files/figure-html/unnamed-chunk-2-4.png){width=672}\n\n### Tab kpi5    \n![](demo_files/figure-html/unnamed-chunk-2-5.png){width=672}\n\n### Tab kpi6    \n![](demo_files/figure-html/unnamed-chunk-2-6.png){width=672}\n\n::: \n\n\n# Finish!",
+    "supporting": [
+      "demo_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,5 +1,31 @@
 ---
-title: "Welcome"
+title: "NHSE SW Quarto Reports."
+author: "Euan Ives - Insights & Intelligence Team"
+date: today
+date-format: "D MMMM YYYY"
+format:
+  html:
+    theme: cerulean
+    self-contained: true
+    standalone: true
+    number-sections: false
+    grid:
+        body-width: 1500px 
+editor: visual
 ---
 
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3UxZnJiYjc0cjR6cHU0a3Z2YTkwYW1id2M1NG0xajJpMWliYXJzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ypqHf6pQ5kQEg/giphy.gif)
+
+## Welcome
+
+Welcome to the **NHSE South West Insights & Intelligence** reporting portal. This site serves as a centralized hub for our automated Quarto documentation and data analysis.
+
+::: {.callout-note}
+### Quick Start
+Use the navigation menu on the left to browse specific reports, methodology notes, and intelligence briefings.
+:::
+
+- This is a Quarto website.
+
+    - Welcome
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnhrYXdnYzhiM3o5b2p6azYzNWRvcTI4OXpncGtrYTRhaDNuODRieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KiMBUPZUhUg4HRV6PW/giphy.gif)

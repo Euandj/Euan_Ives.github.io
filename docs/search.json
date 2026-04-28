@@ -1,0 +1,60 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NHSE SW Quarto Reports.",
+    "section": "",
+    "text": "Welcome to the NHSE South West Insights & Intelligence reporting portal. This site serves as a centralized hub for our automated Quarto documentation and data analysis.\n\n\n\n\n\n\nQuick Start\n\n\n\nUse the navigation menu on the left to browse specific reports, methodology notes, and intelligence briefings.\n\n\n\nThis is a Quarto website.\n\nWelcome"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nEuan Ives - Quarto Reports\nWith thanks to contributions from analysts in NHS England and throughout the wider health system for resources that we have, no doubt, plagiarised with varying degrees of awareness!\nStatus: Active\nPurpose: To support colleagues in the South West Data and Analytics Team\nAudience: South West colleagues, wider analytical colleagues, anyone who may find these resources helpful\nContact: Euan Ives Senior Analyst, South West (euan.ives@nhs.net)",
+    "crumbs": [
+      "About",
+      "About"
+    ]
+  },
+  {
+    "objectID": "pages/demo.html",
+    "href": "pages/demo.html",
+    "title": "Quarto R Demo",
+    "section": "",
+    "text": "Automated nested quarto tabs\nWe are going to create some dummy data\n\n\nNext\nNext we want to create a tab and chart per site and for each KPI under that site.\nin principle you could use this method to create multiple layers of nested tabs\n\nTab kpi1Tab kpi2Tab kpi3Tab kpi4Tab kpi5Tab kpi6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinish!",
+    "crumbs": [
+      "Quarto Reports",
+      "Quarto R Demo"
+    ]
+  },
+  {
+    "objectID": "pages/demo1.html",
+    "href": "pages/demo1.html",
+    "title": "GitHub in RStudio",
+    "section": "",
+    "text": "# Using Git in RStudio\n## Part 1: Create a new RStudio project with Git\nThere are three ways to create version control for a RStudio project.\na) Create a new project and create a local Git repository: Select File &gt; New Project, create a project from a New Directory and check the option Create a git repository. In order to push to a remote repository later on you add that remote repository by using the Git shell. If you already know which online repository you want to use for your projects, option c) is more convenient.\nb) Create a new project from a folder under version control: In this case you only need to create a new RStudio project for that directory and version control is automatically enabled. Go to File &gt; New Project, select create a new project from an Existing Directory and create the project.\nc) Create a new project based on a remote Git repository: Select File &gt; New Project and from the opening menu select to create a new project from Version Control, Choose Git, then provide the repository url (use the https link of the url if you want to avoid all the ssh trouble) from the the repository you want to clone and create the project.\nIn this tutorial we **create a project by cloning a remote GitHub repository (option c). Hence we first create a new repository on GitHub and then use RStudio to clone that repository and set up our GitHub project.\n1. Create a new GitHub repository: Login to your GitHub account and create a new GitHub repository. Give your new repository a short and memorable name e.g. rstudio-git-test, check the option to initialize this repository with a README and create the repository.\n2. Copy the repository HTTPS url: To create a new Git based project in RStudio, we need the repository url. You find the repository HTTPS url on the just created GitHub project page. There press the button &lt;&gt; Code (green button) and copy the HTTPS link of the project by clicking the little icon to the right of the URL. The link will be something like https://github.com/yourusername/rstudio-git-test.git.\n3. Create a new RStudio project with Git version control: Now everything is ready to create a new project with Git version control in RStudio. In RStudio Select File &gt; New Project, select Version Control, Choose Git, then provide the repository HTTPS link, select the R workspace folder and create the project. RStudio now copies (clone in Git terms) the content of the repository to your project folder. The content of the GitHub repository should now appear in the Files pane of RStudio and you should see there the created README.md.",
+    "crumbs": [
+      "Quarto Reports",
+      "GitHub in RStudio"
+    ]
+  },
+  {
+    "objectID": "pages/demo1.html#part-2-make-local-changes-commit-and-push-to-github",
+    "href": "pages/demo1.html#part-2-make-local-changes-commit-and-push-to-github",
+    "title": "GitHub in RStudio",
+    "section": "Part 2: Make local changes, commit and push to GitHub",
+    "text": "Part 2: Make local changes, commit and push to GitHub\n1. Make local changes: Open the README.md file and edit and save the file.\n# RR project in RStudio\n\nRR workshop RStudio + Git repository\n\nMy first commit to GitHub with R \n2. Commit the changes: Now we commit the local changes to the local Git repository.\nIn RStudio press the Git icon and select Commit from Git menu (Ctrl+Alt+M) to open the commit window to review the changes in the repository. In the Staged column we select by checking the checkbox the files we want to commit. The lower pane shows the edits in green and red of the file. Enter a commit message to indicate what has changed in this commit e.g.Readme update and press the Commit button.\n\n3. Push to the remote repository: To push the changes to the remote GitHub repository press the Push button on the upper right corner of the commit window. You will be prompted to enter the username and password of your GitHub account. Enter them and check on the GitHub page if the changes got pushed to your online repository on GitHub.",
+    "crumbs": [
+      "Quarto Reports",
+      "GitHub in RStudio"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "NHSE SW Quarto Reports.",
+    "section": "",
+    "text": "Welcome to the NHSE South West Insights & Intelligence reporting portal. This site serves as a centralized hub for our automated Quarto documentation and data analysis.\n\n\n\n\n\n\nQuick Start\n\n\n\nUse the navigation menu on the left to browse specific reports, methodology notes, and intelligence briefings.\n\n\n\nThis is a Quarto website.\n\nWelcome"
+  }
+]
