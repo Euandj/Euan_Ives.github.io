@@ -18,11 +18,7 @@ website:
       - section: "Quarto Reports"
         contents:
           - pages/demo1.qmd
-          - pages/intro-to-github.qmd
-          - pages/qasar.qmd
-          - pages/issues.qmd
-          - pages/project-boards.qmd
-      - section: "Git in IDEs"
+      - section: "Git"
         contents:
           - pages/github-desktop.qmd
           - pages/r-studio.qmd
@@ -35,7 +31,6 @@ website:
       - section: "Placeholder"
         contents:
           - pages/another-page.qmd
-
 format:
   html:
     toc: true
