@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Reports"
-#site-url: "https://euandj.github.io/Euan_Ives.github.io/"
+  site-url: "https://euandj.github.io/Euan_Ives.github.io/"
   sidebar:
     foreground: "black"
     # background: "#EBF5FF"
@@ -26,3 +26,5 @@ format:
     toc: true
     css: styles.css
 
+execute:
+  freeze: auto
