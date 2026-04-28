@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!guidance/SOP.md"
+
+website:
+  title: "NHSE-SW-Reports"
+  site-url: "https://euandj.github.io/Euan_Ives.github.io/"
+  sidebar:
+    foreground: "black"
+    # background: "#EBF5FF"
+    background: "#005eb833"
+    style: "docked"
+    search: true
+    contents:
+      - section: "Quarto Reports"
+        contents:
+          - pages/first-repo.qmd
+          - pages/intro-to-github.qmd
+          - pages/qasar.qmd
+          - pages/issues.qmd
+          - pages/project-boards.qmd
+      - section: "Git in IDEs"
+        contents:
+          - pages/github-desktop.qmd
+          - pages/r-studio.qmd
+          - pages/vs-code.qmd
+          - pages/databricks-github.qmd
+          - pages/fdp.qmd
+      - section: "Principles"
+        contents:
+          - pages/understanding-code.qmd
+      - section: "Placeholder"
+        contents:
+          - pages/another-page.qmd
+
+format:
+  html:
+    toc: true
+    css: styles.css
+
+execute:
+  freeze: auto
