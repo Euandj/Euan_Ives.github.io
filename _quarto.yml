@@ -17,7 +17,7 @@ website:
     contents:
       - section: "Quarto Reports"
         contents:
-          - pages/first-repo.qmd
+          - pages/demo1.qmd
           - pages/intro-to-github.qmd
           - pages/qasar.qmd
           - pages/issues.qmd
